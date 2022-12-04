@@ -89,6 +89,19 @@
     margin-left: 25px;
 }
 
+.ekdma {
+    border: 0;
+    color: #00CCCC;
+    border-radius: 20px;
+    width: 90px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 0px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
 footer {
     margin-left: 105px;
 }
@@ -107,9 +120,8 @@ footer {
 }
 
 .break {
-    border: 1px solid black;
-    height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
