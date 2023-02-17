@@ -73,16 +73,27 @@
     let day = date.getDate()
 
     getMeal(`${year}-${month}-${`${day}`.padStart(2, '0')}`);
+<<<<<<< Updated upstream
     nowDate.innerText = `${year}년 ${month}월 ${`${day}`.padStart(2, '0')}일`;
 
 
     beforeBtn.addEventListener("click", () => {
         if (day === 0) 
+=======
+    
+
+    beforeBtn.addEventListener("click", () => {
+        if (day === -1) 
+>>>>>>> Stashed changes
         {
             day = new Date(year,month-1,0).getDate();
             month = (month - 1) % 12 === 0 ? 12 : (month - 1) % 12;
         }
+<<<<<<< Updated upstream
             else day -= 1
+=======
+            else day -= 1;
+>>>>>>> Stashed changes
 
         const today = `${year}-${month}-${`${day}`.padStart(2, '0')}`;
         getMeal(today);
@@ -94,8 +105,13 @@
             month = (month + 1) % 12 === 0 ? 12 : (month + 1) % 12;
             day = 1;
         }
+<<<<<<< Updated upstream
         else day = day + 1
         const today = `${year}-${month}-${`${day}`.padStart(2, '0')}`;
+=======
+        else day = day + 1;
+         const today = `${year}-${month}-${`${day}`.padStart(2, '0')}`;
+>>>>>>> Stashed changes
         getMeal(today);
     })
 
@@ -106,7 +122,11 @@
             lunch.innerText = e.data[`${today}`].lunch.join('\n')
             dinner.innerText = e.data[`${today}`].dinner.join('\n')
         })
+<<<<<<< Updated upstream
          nowDate.innerText = `${year}년 ${month}월 ${`${day}`.padStart(2, '0')}일`;
+=======
+        nowDate.innerText = `${year}년 ${month}월 ${`${day}`.padStart(2, '0')}일`;
+>>>>>>> Stashed changes
     }
 
    
