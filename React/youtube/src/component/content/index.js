@@ -38,7 +38,6 @@ const ContentTitle = styled.div`
   margin-left: 10px;
   font-family: "Roboto", "Arial", sans-serif;
 `;
-const Contentviews = styled.div``;
 
 const ContentPosted = styled.div`
   content: "•";
@@ -68,196 +67,183 @@ const Content = () => {
   return (
     <ContentArea>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
+            <ContentPosted>1일전</ContentPosted>
+          </Div>
+        </ContentInformation>
+      </ContentBox>
+
+      <ContentBox>
+        <ContentVideo />
+        <Div>
+          <ContentProfile />
+          <ContentTitle>제목입니다.</ContentTitle>
+        </Div>
+
+        <ContentInformation>
+          <ContentCreator>ContentCreator</ContentCreator>
+          <Div>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
+            <ContentPosted>1일전</ContentPosted>
+          </Div>
+        </ContentInformation>
+      </ContentBox>
+
+      <ContentBox>
+        <ContentVideo />
+        <Div>
+          <ContentProfile />
+          <ContentTitle>제목입니다.</ContentTitle>
+        </Div>
+
+        <ContentInformation>
+          <ContentCreator>ContentCreator</ContentCreator>
+          <Div>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>
       </ContentBox>
       <ContentBox>
-        <ContentVideo></ContentVideo>
+        <ContentVideo />
         <Div>
-          <ContentProfile></ContentProfile>
+          <ContentProfile />
           <ContentTitle>제목입니다.</ContentTitle>
         </Div>
 
         <ContentInformation>
           <ContentCreator>ContentCreator</ContentCreator>
           <Div>
-            <Contentviews>조회수 1회</Contentviews>
-            <ContentPosted>1일전</ContentPosted>
-          </Div>
-        </ContentInformation>
-      </ContentBox>
-      <ContentBox>
-        <ContentVideo></ContentVideo>
-        <Div>
-          <ContentProfile></ContentProfile>
-          <ContentTitle>제목입니다.</ContentTitle>
-        </Div>
-
-        <ContentInformation>
-          <ContentCreator>ContentCreator</ContentCreator>
-          <Div>
-            <Contentviews>조회수 1회</Contentviews>
-            <ContentPosted>1일전</ContentPosted>
-          </Div>
-        </ContentInformation>
-      </ContentBox>
-      <ContentBox>
-        <ContentVideo></ContentVideo>
-        <Div>
-          <ContentProfile></ContentProfile>
-          <ContentTitle>제목입니다.</ContentTitle>
-        </Div>
-
-        <ContentInformation>
-          <ContentCreator>ContentCreator</ContentCreator>
-          <Div>
-            <Contentviews>조회수 1회</Contentviews>
-            <ContentPosted>1일전</ContentPosted>
-          </Div>
-        </ContentInformation>
-      </ContentBox>
-      <ContentBox>
-        <ContentVideo></ContentVideo>
-        <Div>
-          <ContentProfile></ContentProfile>
-          <ContentTitle>제목입니다.</ContentTitle>
-        </Div>
-
-        <ContentInformation>
-          <ContentCreator>ContentCreator</ContentCreator>
-          <Div>
-            <Contentviews>조회수 1회</Contentviews>
+            조회수 1회
             <ContentPosted>1일전</ContentPosted>
           </Div>
         </ContentInformation>

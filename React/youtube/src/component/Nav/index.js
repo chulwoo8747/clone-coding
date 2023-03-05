@@ -5,7 +5,6 @@ const NavArea = styled.div`
   width: 100%;
   height: 56px;
   border: 1px solid green;
-  font-family: Roboto, Arial, sans-serif;
   display: flex;
   padding: 12px;
   margin: 12px 0;
@@ -25,19 +24,19 @@ const NavBox = styled.div`
 const Nav = () => {
   return (
     <NavArea>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
-      <NavBox>dd</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
+      <NavBox>주제</NavBox>
     </NavArea>
   );
 };
