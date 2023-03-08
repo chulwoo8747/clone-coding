@@ -2,4 +2,16 @@
   margin: 0;
   padding: 0;
   font-family: Apple SD Gothic Neo, arial, sans-serif;
+  font-size: 14px;
+}
+
+input {
+  width: 403px;
+  height: 44px;
+  border: none;
+  outline: none;
+}
+
+form {
+  display: flex;
 }

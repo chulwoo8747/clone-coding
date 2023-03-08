@@ -5,7 +5,7 @@ const FooterArea = styled.div`
   background: #f2f2f2;
 `;
 
-const FooterTop = styled.div`
+const Country = styled.div`
   padding: 15px 30px;
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
@@ -15,28 +15,40 @@ const FooterTop = styled.div`
 const FooterBottom = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
-  font-size: 14px;
+  padding: 0 20px 0 0;
 `;
 
-const FooterBottomLeft = styled.div`
+const Information = styled.div`
   padding: 15px 30px;
   color: #70757a;
 `;
 
-const FooterBottomRight = styled.div`
-  display: flex;
-  padding: 15px 30px;
+const TermsSettings = styled.div`
+  padding: 15px 0;
   color: #70757a;
+`;
+
+const Advertisement = styled.span`
+  padding: 15px 15px 15px 0;
+`;
+
+const Business = styled.span`
+  padding: 15px;
 `;
 
 const Footer = () => {
   return (
     <FooterArea>
-      <FooterTop>대한민국</FooterTop>
+      <Country>대한민국</Country>
       <FooterBottom>
-        <FooterBottomLeft>광고 비즈니스 검색의 원리</FooterBottomLeft>
-        <FooterBottomRight>개인정보처리방침 약관 설정</FooterBottomRight>
+        <Information>
+          <Advertisement>광고</Advertisement> <Business>비즈니스</Business>
+          <Business>검색의 원리</Business>
+        </Information>
+        <TermsSettings>
+          <Advertisement>개인정보처리방침</Advertisement>
+          <Business>약관</Business> <Business>설정</Business>
+        </TermsSettings>
       </FooterBottom>
     </FooterArea>
   );

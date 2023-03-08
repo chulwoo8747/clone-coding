@@ -3,11 +3,10 @@ import styled from "styled-components";
 
 const HeaderArea = styled.div`
   display: flex;
-  aline-items: center;
+  align-items: center;
   justify-content: space-between;
   padding: 6px;
   height: 60px;
-  font-size: 14px;
 `;
 
 const HeaderLeft = styled.div`
@@ -29,15 +28,11 @@ const HeaderRight = styled.div`
   padding-right: 15px;
 `;
 
-const HeaderRightSecond = styled.div`
-  padding: 5px;
-  margin: 0 5px;
-  margin-right: 15px;
-`;
-
 export const Svg = styled.svg`
   width: 24px;
   height: 24px;
+  vertical-align: middle;
+  padding: 0 8px;
 `;
 
 const Header = () => {
