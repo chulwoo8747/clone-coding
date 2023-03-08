@@ -42,12 +42,50 @@ const Footer = () => {
       <Country>대한민국</Country>
       <FooterBottom>
         <Information>
-          <Advertisement>광고</Advertisement> <Business>비즈니스</Business>
-          <Business>검색의 원리</Business>
+          <Advertisement>
+            <a
+              id="footer"
+              href="https://www.google.com/intl/ko_kr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >
+              광고
+            </a>
+          </Advertisement>
+          <Business>
+            <a
+              id="footer"
+              href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+            >
+              비즈니스
+            </a>
+          </Business>
+          <Business>
+            <a
+              id="footer"
+              href="https://google.com/search/howsearchworks/?fg=1"
+            >
+              검색의 원리
+            </a>
+          </Business>
         </Information>
         <TermsSettings>
-          <Advertisement>개인정보처리방침</Advertisement>
-          <Business>약관</Business> <Business>설정</Business>
+          <Advertisement>
+            <a
+              id="footer"
+              href="https://policies.google.com/privacy?hl=ko&fg=1"
+            >
+              개인정보처리방침
+            </a>
+          </Advertisement>
+          <Business>
+            <a id="footer" href="https://policies.google.com/terms?hl=ko&fg=1">
+              약관
+            </a>
+          </Business>
+          <Business>
+            <a id="footer" href="">
+              설정
+            </a>
+          </Business>
         </TermsSettings>
       </FooterBottom>
     </FooterArea>
