@@ -13,7 +13,6 @@ const BodyArea = styled.div`
 const Logo = styled.img`
   margin: auto;
   display: block;
-  padding: 20px;
 `;
 
 const SearchBox = styled.div`
@@ -52,25 +51,6 @@ const Magnifier = styled.svg`
   height: 20px;
 `;
 
-const SearchKeyword = styled.button`
-  margin: 11px 4px;
-  padding: 0 16px;
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
-  border-radius: 4px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-`;
-
-const SearchKeywordBox = styled.div`
-  padding-top: 16px;
-  display: flex;
-  justify-content: center;
-`;
-
 const Body = () => {
   return (
     <BodyArea>
@@ -86,7 +66,6 @@ const Body = () => {
             <input name="q" type="text" />
           </form>
         </Input>
-
         <SearchingTool>
           <img src={tia} />
           <Svg focusable="false" viewBox="0 0 24 24">
@@ -125,14 +104,6 @@ const Body = () => {
           </Svg>
         </SearchingTool>
       </SearchBox>
-      <SearchKeywordBox>
-        <SearchKeyword>
-          <a class="searchkeyword" href="">
-            Google 검색
-          </a>
-        </SearchKeyword>
-        <SearchKeyword>I'm Feeling Lucky</SearchKeyword>
-      </SearchKeywordBox>
     </BodyArea>
   );
 };
