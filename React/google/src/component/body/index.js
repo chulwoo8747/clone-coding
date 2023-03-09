@@ -110,7 +110,11 @@ const Body = () => {
             Google 검색
           </a>
         </SearchKeyword>
-        <SearchKeyword>I'm Feeling Lucky</SearchKeyword>
+        <SearchKeyword>
+          <a class="searchkeyword" href="">
+            I'm Feeling Lucky
+          </a>
+        </SearchKeyword>
       </SearchKeywordBox>
     </BodyArea>
   );
