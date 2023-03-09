@@ -13,6 +13,7 @@ const BodyArea = styled.div`
 const Logo = styled.img`
   margin: auto;
   display: block;
+  padding-bottom: 20px;
 `;
 
 const SearchBox = styled.div`
@@ -49,6 +50,23 @@ const Input = styled.div`
 const Magnifier = styled.svg`
   width: 20px;
   height: 20px;
+`;
+
+const SearchKeyword = styled.button`
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+  with: 100%;
+  height: 36px;
+  margin: 11px 4px;
+  border-radius: 4px;
+  padding: 0 16px; ;
+`;
+
+const SearchKeywordBox = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
 `;
 
 const Body = () => {
@@ -106,12 +124,12 @@ const Body = () => {
       </SearchBox>
       <SearchKeywordBox>
         <SearchKeyword>
-          <a class="searchkeyword" href="">
+          <a id="searchkeyword" href="">
             Google 검색
           </a>
         </SearchKeyword>
         <SearchKeyword>
-          <a class="searchkeyword" href="">
+          <a id="searchkeyword" href="">
             I'm Feeling Lucky
           </a>
         </SearchKeyword>

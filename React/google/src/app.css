@@ -42,3 +42,12 @@ a#footer:visited {
   color: #70757a;
   text-decoration: none;
 }
+
+a#searchKeyword:link {
+  color: #70757a;
+  text-decoration: none;
+}
+
+a#searchkeyword:hover {
+  text-decoration: none;
+}
