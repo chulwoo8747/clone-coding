@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Apple SD Gothic Neo, arial, sans-serif;
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 input {
@@ -10,6 +11,16 @@ input {
   height: 44px;
   border: none;
   outline: none;
+  background: transparent;
+}
+
+#input_text {
+  position: absolute;
+  opacity: 0;
+}
+
+input:hover #input_text {
+  opacity: 1;
 }
 
 form {
