@@ -16,7 +16,7 @@ input {
 
 #input_text {
   position: absolute;
-  opacity: 0;
+  opacity: 1;
 }
 
 input:hover #input_text {
