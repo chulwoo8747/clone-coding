@@ -34,7 +34,6 @@ const SearchingIcon = styled.div`
   display: flex;
   align-items: center;
   padding-right: 13px;
-  margin-top: -5px;
 `;
 
 const SearchingTools = styled.div`
