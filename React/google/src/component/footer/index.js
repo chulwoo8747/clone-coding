@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 const FooterArea = styled.div`
-  height: 116px;
   background: #f2f2f2;
 `;
 
