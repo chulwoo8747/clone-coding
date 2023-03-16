@@ -25,6 +25,9 @@ const SearchBox = styled.div`
   margin: 0 auto;
   max-width: 584px;
   padding: 0 8px 0 14px;
+  :hover {
+    box-shadow: 0 0 5px 1px rgb(225, 225, 226);
+  }
 `;
 
 const SearchingIcon = styled.div`
