@@ -5,7 +5,7 @@ import logo from "../../aseets/logo/logo.png";
 import tia from "../../aseets/icons/tia.png";
 
 const BodyArea = styled.div`
-  height: 485.2px;
+  height: 70vh;
   align-items: center;
   margin-top: 52px;
 `;
