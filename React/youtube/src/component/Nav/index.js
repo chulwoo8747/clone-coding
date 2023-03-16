@@ -6,19 +6,21 @@ const NavArea = styled.div`
   height: 56px;
   border: 1px solid green;
   display: flex;
-  padding: 12px;
-  margin: 12px 0;
   justify-content: space-evenly;
   position: fixed;
+  z-index: 999;
+  background-color: white;
 `;
 
-const NavBox = styled.div`
-  width: 100%;
+const NavBox = styled.button`
+  min-width: 13px;
   height: 32px;
   border-radius: 8px;
   background-color: #f2f2f2;
   text-align: center;
   padding-top: 5px;
+  border: none;
+  margin: 12px 12px 12px 0;
 `;
 
 const Nav = () => {
