@@ -13,6 +13,7 @@ const HeaderArea = styled.div`
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 999;
 `;
 const HeaderLogo = styled.div`
   margin-left: 25px;
@@ -36,7 +37,7 @@ const Menu = styled.span`
 `;
 
 const Logo = styled.div`
-  display: b
+  display: block;
   width: 100%;
   height: 100%;
 `;
@@ -48,7 +49,7 @@ const SearchBox = styled.div`
   border-radius: 24px 0 0 24px;
   margin: 0 auto;
   width: 519px;
-  align-itmes: center;
+  align-items: center;
 `;
 
 const Input = styled.input`
