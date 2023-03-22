@@ -4,7 +4,7 @@ import styled from "styled-components";
 const ContentArea = styled.div`
   width: 100%;
   border: 1px solid blue;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   row-gap: 50px;
   display: grid;
   margin-top: 80px;
