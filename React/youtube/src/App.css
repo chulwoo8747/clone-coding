@@ -4,4 +4,10 @@
   box-sizing: border-box;
   font-family: Roboto, Arial, sans-serif;
   box-sizing: border-box;
+  font-size: 14px;
+}
+
+#icontuch:hover {
+  border-radius: 50%;
+  background-color: #cccccc;
 }
