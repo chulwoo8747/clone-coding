@@ -8,7 +8,6 @@ const NavArea = styled.div`
   display: flex;
   justify-content: space-evenly;
   position: fixed;
-  z-index: 999;
   background-color: white;
 `;
 
@@ -21,6 +20,7 @@ const NavBox = styled.button`
   padding-top: 5px;
   border: none;
   margin: 12px 12px 12px 0;
+  padding: 0 12px;
 `;
 
 const Nav = () => {
