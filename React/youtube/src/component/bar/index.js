@@ -7,6 +7,7 @@ const BarArea = styled.div`
   width: 240px;
   border: 1px solid brown;
   position: fixed;
+  padding: 12px;
 `;
 
 const BarItem = styled.div`
@@ -18,24 +19,25 @@ const BarItem = styled.div`
 `;
 
 const HomeButton = styled.div`
+  width: 100%;
   height: 40px;
-  padding: 8px 22px;
+  padding: 12px;
   justify-content: flex-start;
   align-items: center;
   gap: 24px;
   display: flex;
   :hover {
-    border-radius: 8%;
-    background-color: #cccccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
   }
 `;
 
 const ContentList = styled.div`
-  width: 240px;
   height: 240px;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #cccccc;
+  justify-content: center;
 `;
 
 const TextOver = styled.div`
